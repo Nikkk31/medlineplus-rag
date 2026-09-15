@@ -1,0 +1,8 @@
+models/*.gguf
+storage/
+data/raw/
+.env
+.cache/
+__pycache__/
+*.pyc
+.env.example
