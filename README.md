@@ -109,7 +109,7 @@ so ground truth can be filled in from real output rather than guessed.
   "diet"/"nutrition", so those MedlinePlus topics were never ingested.
   Questions on these topics retrieve scattered, low-confidence chunks.
 - **Local generation is slow on CPU-only hardware** (~60-130s per
-  question on a 4GB RAM laptop with no GPU), even with Q4_K_M
+  question on a laptop with no GPU), even with Q4_K_M
   quantization and `CPU_REPACK` matmul kernels engaged. The Anthropic
   backend is meaningfully faster if low latency matters more than
   running fully offline.
