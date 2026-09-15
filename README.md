@@ -3,7 +3,7 @@
 A retrieval-augmented generation system that answers patient-education
 questions about diabetes and blood sugar, grounded only in MedlinePlus
 (National Library of Medicine) content. Runs fully locally by default
-(no API key required), with an optional Anthropic API backend.
+(no API key required).
 
 ## Architecture
 
