@@ -45,8 +45,6 @@ MedlinePlus XML  →  markdown corpus  →  chunks  →  FAISS + BM25 indexes  �
 # create/activate your environment, then:
 pip install -r requirements.txt
 
-# copy and fill in .env (only needed for the Anthropic backend)
-copy .env.example .env
 ```
 
 Download a GGUF model into `models/` — see `config.py`'s
